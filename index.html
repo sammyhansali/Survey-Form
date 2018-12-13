@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Survey Form</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <div id="title">
+        <h1>Survey Form</h1>
+    </div>
+    <div id="form-outer">
+    <form>
+        <p>Give us a recommendation.</p>
+        <div class="row-tab">
+            <div class="labels">
+                <label id="name-label" for="fullname">Name: </label>
+            </div>
+            <div class="rightTab">
+                <input autofocus type="text" name="fullname" id="fullname" class="input-field" placeholder="Enter your full name" required>
+            </div>
+        </div>
+        
+        <div class="row-tab">
+            <div class="labels">
+                <label id="email-label" for="email">Email: </label>
+            </div>
+            <div class="rightTab">
+                <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required>
+            </div>
+        </div>
+        
+        <div class="row-tab">
+            <div class="labels">
+                <label id="age-label" for="age">Age: </label>
+            </div>
+            <div class="rightTab">
+                <input type="number" min="1" max="100" name="age" id="number" class="input-field" placeholder="Age" required>
+            </div>
+        </div>
+        
+        <div class="row-tab">
+            <div class="labels">
+                <label id="options-label" for="status">Which option should you pick?: </label>
+            </div>
+            <div class="rightTab">
+                <select id="dropdown" name="status">
+                    <option disabled value>Select an Option</option>
+                    <option value="employed">Employed</option>
+                    <option value="unemployed">Unemployed</option>
+                    <option value="student">Student</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="row-tab">
+            <div class="labels labelZ">
+                <label id="options-label" for="referral">How likely are you to refer us to a friend?: </label>
+            </div>
+            <div class="rightTab" id="choices">
+                <input type="radio" name="referral" value="verylikely" checked>Very Likely<br>
+                <input type="radio" name="referral" value="somewhatlikely">Somewhat Likely<br>
+                <input type="radio" name="referral" value="notlikely">Not Likely<br>
+            </div>
+        </div>
+        
+        <div class="row-tab">
+            <div class="labels">
+                <label id="colors-label" for="colors">Whats your fav color?: </label>
+            </div>
+            <div class="rightTab">
+                <select id="dropdown" name="colors">
+                    <option disabled value>Select an Option</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="row-tab">
+            <div class="labels labelZ">
+                <label id="pref-label" for="preferences">Things that we should improve in the future: </label>
+            </div>
+            <div class="rightTab">
+                <ul id="preferences" style="list-style: none;">
+                    <li><label><input type="checkbox" name="prefer" class="userRatings" value="1">This</label></li>
+                    <li><label><input type="checkbox" name="prefer" class="userRatings" value="2">This</label></li>
+                    <li><label><input type="checkbox" name="prefer" class="userRatings" value="3">This</label></li>
+                    <li><label><input type="checkbox" name="prefer" class="userRatings" value="4">This</label></li>
+                    <li><label><input type="checkbox" name="prefer" class="userRatings" value="5">This</label></li>
+                    <li><label><input type="checkbox" name="prefer" class="userRatings" value="6">This</label></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row-tab">
+            <div class="labels labelZ">
+                <label id="comments-label" for="comments">Any comments or suggestions?: </label>
+            </div>
+            <div class="rightTab">
+                <textarea name="comments" id="comments"></textarea>
+            </div>
+        </div>
+        <div class="bottom">
+            <button type="submit" name="submit-btn" id="submit">Submit</button>
+         </div>
+    </form>
+        </div>
+</body>
+</html>

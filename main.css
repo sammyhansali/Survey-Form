@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    background-color: #a9d7d1;
+}
+h1 {
+    font-family: roboto;
+    font-size: 45px;
+    text-align: center;
+}
+form {
+    background-color: white;
+    margin: 0px 10%;
+}
+p {
+    font-family: roboto;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-weight: 300;
+}
+label {
+    font-family: roboto;
+}
+.row-tab {
+   margin: 10px 0px; 
+}
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 45%;
+    margin: 10px;
+    vertical-align: middle;
+    
+}
+
+.rightTab {
+    margin-left: 0px;
+    width: 45%;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: roboto;
+    font-size: 15px;
+}
+.userRatings, input[type="checklist"] {
+    margin-right: 5px;
+    
+}
+#preferences {
+    float: left;
+    padding: 0px;
+}
+#comments {
+    margin-top: 10px;
+}
+#choices {
+    margin-top: 10px;
+}
+#submit {
+    background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+    text-align: center;
+    
+}
+.labelZ {
+    vertical-align: top;
+    
+}
+.input-field {
+    height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+#form-outer {
+    margin: 0px auto;
+}
+#dropdown {
+    height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+.bottom {
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
